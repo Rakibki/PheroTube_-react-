@@ -1,4 +1,4 @@
-let temp;
+let temp = 1000;
 
 const getAllCategorys = async () => {
     const res = await fetch(`https://openapi.programming-hero.com/api/videos/categories`)
